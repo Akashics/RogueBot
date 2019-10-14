@@ -1,0 +1,23 @@
+module.exports = {
+	token: '',
+	webhook: {
+		id: '',
+		secret: ''
+	},
+	geniuskey: '',
+	defaultRegions: {
+		asia: ['sydney', 'singapore', 'japan', 'hongkong'],
+		eu: ['london', 'frankfurt', 'amsterdam', 'russia', 'eu-central', 'eu-west'],
+		us: ['us-central', 'us-west', 'us-east', 'us-south', 'brazil']
+	},
+	nodes: [
+		{
+			hosts: {
+				rest: 'http://localhost:2333',
+				ws: 'ws://localhost:2333'
+			},
+			password: '',
+			tags: ['us','eu']
+		}
+	]
+};
