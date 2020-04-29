@@ -17,6 +17,13 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+backoff@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/backoff/-/backoff-2.5.0.tgz#f616eda9d3e4b66b8ca7fca79f695722c5f8e26f"
+  integrity sha1-9hbtqdPktmuMp/ynn2lXIsX44m8=
+  dependencies:
+    precond "0.2"
+
 boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
@@ -152,9 +159,11 @@ klasa@dirigeants/klasa:
     fs-nextra "^0.4.3"
 
 "lavalink@https://github.com/appellation/lavalink.js":
-  version "2.4.1"
-  resolved "https://github.com/appellation/lavalink.js#67c8f0774bd11a5d08d4220db9cc6e37cdcbbec2"
+  version "2.10.0"
+  uid "0ea50e37ab34b13e2c92365ac93e613e7b42fab7"
+  resolved "https://github.com/appellation/lavalink.js#0ea50e37ab34b13e2c92365ac93e613e7b42fab7"
   dependencies:
+    backoff "^2.5.0"
     ws "^6.0.0"
 
 lodash@^4.15.0:
@@ -197,6 +206,11 @@ parse5@^3.0.1:
   integrity sha512-rgO9Zg5LLLkfJF9E6CCmXlSE4UVceloys8JrFqCcHloC3usd/kJCyPDwH2SOlzix2j3xaP9sUX3e8+kvkuleAA==
   dependencies:
     "@types/node" "*"
+
+precond@0.2:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/precond/-/precond-0.2.3.tgz#aa9591bcaa24923f1e0f4849d240f47efc1075ac"
+  integrity sha1-qpWRvKokkj8eD0hJ0kD0fvwQdaw=
 
 prism-media@^1.0.0:
   version "1.0.1"
