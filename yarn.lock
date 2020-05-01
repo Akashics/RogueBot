@@ -149,10 +149,10 @@ event-target-shim@^5.0.0:
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
-fs-nextra@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/fs-nextra/-/fs-nextra-0.4.3.tgz#9afff5435b445a507d16a081399782c3068b0784"
-  integrity sha512-apXnP4Bm/io1qjf9txX5glAP1Y50DqSVvKWE7wcrCc+U6mgJXBF0fp8QiITUqE1/xZQHzvJ/e212erj0rGCOAA==
+fs-nextra@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/fs-nextra/-/fs-nextra-0.4.7.tgz#76af367029fc5dab360f112f3d38bbc7a7d24285"
+  integrity sha512-N61ZytY7cF3VlPTQ+o90XK+TsdOaUPeX0cpwy5oOVbXaneSO6KorpsR2xSQr+GJbItkWzgu3h4ypSqCWjTeZKg==
 
 htmlparser2@^3.9.1:
   version "3.10.1"
@@ -173,9 +173,10 @@ inherits@^2.0.1, inherits@^2.0.3:
 
 klasa@dirigeants/klasa:
   version "0.5.0-dev"
-  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/b0e463290ce697331394ccfdc4f2910508074eaf"
+  uid "7fbd351c1276a171fdc854bc99f05b5ef89eb32b"
+  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/7fbd351c1276a171fdc854bc99f05b5ef89eb32b"
   dependencies:
-    fs-nextra "^0.4.3"
+    fs-nextra "^0.4.7"
 
 "lavalink@https://github.com/appellation/lavalink.js":
   version "2.10.0"
