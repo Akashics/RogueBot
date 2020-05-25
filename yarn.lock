@@ -172,9 +172,9 @@ inherits@^2.0.1, inherits@^2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 klasa@dirigeants/klasa:
-  version "0.5.0-dev"
-  uid "7fbd351c1276a171fdc854bc99f05b5ef89eb32b"
-  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/7fbd351c1276a171fdc854bc99f05b5ef89eb32b"
+  version "0.5.0"
+  uid "541c9e5f5646db4162f54c7ed61362d479176eed"
+  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/541c9e5f5646db4162f54c7ed61362d479176eed"
   dependencies:
     fs-nextra "^0.4.7"
 
